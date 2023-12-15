@@ -88,7 +88,7 @@
             </elementProp>
             <elementProp name="influxDBURL" elementType="Argument">
               <stringProp name="Argument.name">influxDBURL</stringProp>
-              <stringProp name="Argument.value">https://tsdb.cloudoptimize.cloud/</stringProp>
+              <stringProp name="Argument.value">http://tsdb.loadtests.svc.cluster.local:8086/</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBToken" elementType="Argument">
