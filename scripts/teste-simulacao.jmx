@@ -68,7 +68,7 @@
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="false">
         <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="testName" elementType="Argument">
@@ -88,7 +88,7 @@
             </elementProp>
             <elementProp name="influxDBURL" elementType="Argument">
               <stringProp name="Argument.name">influxDBURL</stringProp>
-              <stringProp name="Argument.value">http://tsdb:8086/</stringProp>
+              <stringProp name="Argument.value">https://tsdb.cloudoptimize.cloud/</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBToken" elementType="Argument">
